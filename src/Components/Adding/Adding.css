@@ -1,0 +1,85 @@
+.form {
+    width: 30.3%;
+    margin-left: 17.5%;
+    margin-top: 5%;
+    display: flex;
+}
+
+.form-element {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+
+.button {
+    font-size: 20px;
+    padding: 20px;
+    margin-top: 1rem;
+}
+
+.btn {
+    background-color: teal;
+}
+
+#cardBody {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.form-inside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+
+@media screen and (max-width: 425px) {
+    .form {
+        margin-top: 20%;
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .form-inside {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form Button {
+        margin-left: 12%;
+        margin-top: 5%;
+    }
+}
+
+
+@media screen and (max-width: 375px) {
+    .form {
+        margin-top: 20%;
+    }
+
+    .form Button {
+        margin-left: 7%;
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+    .form {
+        margin-top: 20%;
+    }
+
+    .form Button {
+        margin-left: 5%;
+    }
+}
+
+
+#dark {
+    background-color: black;
+    color: white;
+}
