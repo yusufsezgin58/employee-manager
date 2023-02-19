@@ -25,42 +25,42 @@ function Adding() {
         <div class="collapse mt-4" id="collapseExample">
           <div class="card card-body" id='cardBody'>
             <FormControl isRequired className='form-element'>
-              <FormLabel className={theme == "light" ? "text-dark" : "text-white"}>Employee Name</FormLabel>
+              <FormLabel className={theme == "light" ? "text-dark" : "text-light"}>Employee Name</FormLabel>
               <Input value={name} onChange={(e) => {
                 setName(e.target.value)
               }} placeholder='Name' />
             </FormControl>
 
             <FormControl isRequired className='form-element'>
-              <FormLabel className={theme == "light" ? "text-dark" : "text-white"}>City Name</FormLabel>
+              <FormLabel className={theme == "light" ? "text-dark" : "text-light"}>City Name</FormLabel>
               <Input value={cityName} onChange={(e) => {
                 setCityName(e.target.value)
               }} placeholder='City Name' />
             </FormControl>
 
             <FormControl isRequired className='form-element'>
-              <FormLabel className={theme == "light" ? "text-dark" : "text-white"}>Company Name</FormLabel>
+              <FormLabel className={theme == "light" ? "text-dark" : "text-light"}>Company Name</FormLabel>
               <Input value={companyName} onChange={(e) => {
                 setCompanyName(e.target.value)
               }} placeholder='Company Name' />
             </FormControl>
 
             <FormControl isRequired className='form-element'>
-              <FormLabel className={theme == "light" ? "text-dark" : "text-white"}>Phone Number</FormLabel>
+              <FormLabel className={theme == "light" ? "text-dark" : "text-light"}>Phone Number</FormLabel>
               <Input value={phone} onChange={(e) => {
                 setPhone(e.target.value)
               }} placeholder='Phone' type={"tel"} />
             </FormControl>
 
             <FormControl isRequired className='form-element'>
-              <FormLabel className={theme == "light" ? "text-dark" : "text-white"}>E-mail</FormLabel>
+              <FormLabel className={theme == "light" ? "text-dark" : "text-light"}>E-mail</FormLabel>
               <Input value={email} onChange={(e) => {
                 setEmail(e.target.value)
               }} placeholder='E-mail' type={"email"} />
             </FormControl>
 
             <FormControl isRequired className='form-element'>
-              <FormLabel className={theme == "light" ? "text-dark" : "text-white"}>Web Site URL</FormLabel>
+              <FormLabel className={theme == "light" ? "text-dark" : "text-light"}>Web Site URL</FormLabel>
               <Input value={url} onChange={(e) => {
                 setURL(e.target.value)
               }} placeholder='URL' type={"url"} />
